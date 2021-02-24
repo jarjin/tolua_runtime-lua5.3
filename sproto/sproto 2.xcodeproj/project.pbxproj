@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		53CAE860251F0F4C00E96229 /* lsproto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lsproto.c; sourceTree = "<group>"; };
+		53CAE861251F0F4C00E96229 /* sproto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sproto.c; sourceTree = "<group>"; };
+		53CAE862251F0F4C00E96229 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		53CAE863251F0F4C00E96229 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		53CAE864251F0F4C00E96229 /* testrpc.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = testrpc.lua; sourceTree = "<group>"; };
+		53CAE865251F0F4C00E96229 /* sprotoparser.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = sprotoparser.lua; sourceTree = "<group>"; };
+		53CAE866251F0F4C00E96229 /* sproto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = sproto.xcodeproj; sourceTree = "<group>"; };
+		53CAE869251F0F4C00E96229 /* sproto.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = sproto.lua; sourceTree = "<group>"; };
+		53CAE86A251F0F4C00E96229 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53CAE86B251F0F4C00E96229 /* test.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.lua; sourceTree = "<group>"; };
+		53CAE86C251F0F4C00E96229 /* msvcint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msvcint.h; sourceTree = "<group>"; };
+		53CAE86D251F0F4C00E96229 /* sproto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sproto.h; sourceTree = "<group>"; };
+		53CAE86E251F0F4C00E96229 /* testcompat.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = testcompat.lua; sourceTree = "<group>"; };
+		53CAE86F251F0F4C00E96229 /* testall.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = testall.lua; sourceTree = "<group>"; };
+		53CAE870251F0F4C00E96229 /* print_r.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = print_r.lua; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		53CAE85A251F0F4C00E96229 = {
+			isa = PBXGroup;
+			children = (
+				53CAE860251F0F4C00E96229 /* lsproto.c */,
+				53CAE861251F0F4C00E96229 /* sproto.c */,
+				53CAE862251F0F4C00E96229 /* LICENSE */,
+				53CAE863251F0F4C00E96229 /* Makefile */,
+				53CAE864251F0F4C00E96229 /* testrpc.lua */,
+				53CAE865251F0F4C00E96229 /* sprotoparser.lua */,
+				53CAE866251F0F4C00E96229 /* sproto.xcodeproj */,
+				53CAE869251F0F4C00E96229 /* sproto.lua */,
+				53CAE86A251F0F4C00E96229 /* README.md */,
+				53CAE86B251F0F4C00E96229 /* test.lua */,
+				53CAE86C251F0F4C00E96229 /* msvcint.h */,
+				53CAE86D251F0F4C00E96229 /* sproto.h */,
+				53CAE86E251F0F4C00E96229 /* testcompat.lua */,
+				53CAE86F251F0F4C00E96229 /* testall.lua */,
+				53CAE870251F0F4C00E96229 /* print_r.lua */,
+			);
+			sourceTree = "<group>";
+		};
+		53CAE867251F0F4C00E96229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		53CAE85F251F0F4C00E96229 /* sproto */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 53CAE872251F0F4C00E96229 /* Build configuration list for PBXLegacyTarget "sproto" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/jarjin/Desktop/tolua_runtime/sproto;
+			dependencies = (
+			);
+			name = sproto;
+			passBuildSettingsInEnvironment = 1;
+			productName = sproto;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		53CAE85B251F0F4C00E96229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 53CAE85E251F0F4C00E96229 /* Build configuration list for PBXProject "sproto 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53CAE85A251F0F4C00E96229;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 53CAE867251F0F4C00E96229 /* Products */;
+					ProjectRef = 53CAE866251F0F4C00E96229 /* sproto.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				53CAE85F251F0F4C00E96229 /* sproto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		53CAE85C251F0F4C00E96229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		53CAE85D251F0F4C00E96229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		53CAE873251F0F4C00E96229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = sproto;
+			};
+			name = Debug;
+		};
+		53CAE874251F0F4C00E96229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = sproto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CAE85E251F0F4C00E96229 /* Build configuration list for PBXProject "sproto 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CAE85C251F0F4C00E96229 /* Debug */,
+				53CAE85D251F0F4C00E96229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CAE872251F0F4C00E96229 /* Build configuration list for PBXLegacyTarget "sproto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CAE873251F0F4C00E96229 /* Debug */,
+				53CAE874251F0F4C00E96229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CAE85B251F0F4C00E96229 /* Project object */;
+}

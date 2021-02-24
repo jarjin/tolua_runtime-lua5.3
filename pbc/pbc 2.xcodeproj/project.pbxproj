@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		53CAE8EA251F31E900E96229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CAE8DC251F31E900E96229 /* pbc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D7EF1334179E5530002B6A46;
+			remoteInfo = pbc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53CAE8D2251F31E800E96229 /* pbc.sln */ = {isa = PBXFileReference; lastKnownFileType = text; path = pbc.sln; sourceTree = "<group>"; };
+		53CAE8D3251F31E800E96229 /* pbc.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pbc.vcxproj.filters; sourceTree = "<group>"; };
+		53CAE8D4251F31E900E96229 /* Android.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		53CAE8D5251F31E900E96229 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		53CAE8D6251F31E900E96229 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		53CAE8D7251F31E900E96229 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		53CAE8D8251F31E900E96229 /* build_android.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_android.sh; sourceTree = "<group>"; };
+		53CAE8D9251F31E900E96229 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		53CAE8DA251F31E900E96229 /* build_ios.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_ios.sh; sourceTree = "<group>"; };
+		53CAE8DB251F31E900E96229 /* pbc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pbc; sourceTree = "<group>"; };
+		53CAE8DC251F31E900E96229 /* pbc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = pbc.xcodeproj; sourceTree = "<group>"; };
+		53CAE8DF251F31E900E96229 /* binding */ = {isa = PBXFileReference; lastKnownFileType = folder; path = binding; sourceTree = "<group>"; };
+		53CAE8E0251F31E900E96229 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53CAE8E1251F31E900E96229 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		53CAE8E2251F31E900E96229 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
+		53CAE8E3251F31E900E96229 /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		53CAE8E4251F31E900E96229 /* pbc.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = pbc.vcxproj; sourceTree = "<group>"; };
+		53CAE8E5251F31E900E96229 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		53CAE8E6251F31E900E96229 /* pbc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pbc.h; sourceTree = "<group>"; };
+		53CAE8E7251F31E900E96229 /* tool */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tool; sourceTree = "<group>"; };
+		53CAE8E8251F31E900E96229 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		53CAE8CC251F31E800E96229 = {
+			isa = PBXGroup;
+			children = (
+				53CAE8D2251F31E800E96229 /* pbc.sln */,
+				53CAE8D3251F31E800E96229 /* pbc.vcxproj.filters */,
+				53CAE8D4251F31E900E96229 /* Android.mk */,
+				53CAE8D5251F31E900E96229 /* CMakeLists.txt */,
+				53CAE8D6251F31E900E96229 /* .DS_Store */,
+				53CAE8D7251F31E900E96229 /* test */,
+				53CAE8D8251F31E900E96229 /* build_android.sh */,
+				53CAE8D9251F31E900E96229 /* Makefile */,
+				53CAE8DA251F31E900E96229 /* build_ios.sh */,
+				53CAE8DB251F31E900E96229 /* pbc */,
+				53CAE8DC251F31E900E96229 /* pbc.xcodeproj */,
+				53CAE8DF251F31E900E96229 /* binding */,
+				53CAE8E0251F31E900E96229 /* README.md */,
+				53CAE8E1251F31E900E96229 /* .gitignore */,
+				53CAE8E2251F31E900E96229 /* build */,
+				53CAE8E3251F31E900E96229 /* license.txt */,
+				53CAE8E4251F31E900E96229 /* pbc.vcxproj */,
+				53CAE8E5251F31E900E96229 /* .travis.yml */,
+				53CAE8E6251F31E900E96229 /* pbc.h */,
+				53CAE8E7251F31E900E96229 /* tool */,
+				53CAE8E8251F31E900E96229 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		53CAE8DD251F31E900E96229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53CAE8EB251F31E900E96229 /* libpbc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		53CAE8D1251F31E800E96229 /* pbc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 53CAE8EC251F31E900E96229 /* Build configuration list for PBXLegacyTarget "pbc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/jarjin/Desktop/tolua_runtime/pbc;
+			dependencies = (
+			);
+			name = pbc;
+			passBuildSettingsInEnvironment = 1;
+			productName = pbc;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		53CAE8CD251F31E800E96229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 53CAE8D0251F31E800E96229 /* Build configuration list for PBXProject "pbc 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53CAE8CC251F31E800E96229;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 53CAE8DD251F31E900E96229 /* Products */;
+					ProjectRef = 53CAE8DC251F31E900E96229 /* pbc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				53CAE8D1251F31E800E96229 /* pbc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		53CAE8EB251F31E900E96229 /* libpbc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpbc.a;
+			remoteRef = 53CAE8EA251F31E900E96229 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		53CAE8CE251F31E800E96229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		53CAE8CF251F31E800E96229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		53CAE8ED251F31E900E96229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = pbc;
+			};
+			name = Debug;
+		};
+		53CAE8EE251F31E900E96229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = pbc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53CAE8D0251F31E800E96229 /* Build configuration list for PBXProject "pbc 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CAE8CE251F31E800E96229 /* Debug */,
+				53CAE8CF251F31E800E96229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CAE8EC251F31E900E96229 /* Build configuration list for PBXLegacyTarget "pbc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CAE8ED251F31E900E96229 /* Debug */,
+				53CAE8EE251F31E900E96229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53CAE8CD251F31E800E96229 /* Project object */;
+}
